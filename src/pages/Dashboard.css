@@ -1,0 +1,195 @@
+/* Dashboard */
+
+.dashboard-container{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background:#f4f6f8;
+    text-align:center;
+    padding:20px;
+}
+
+.dashboard-container h1{
+    color:#2563eb;
+    margin-bottom:20px;
+}
+
+.dashboard-container h2{
+    margin-bottom:10px;
+}
+
+.dashboard-container p{
+    max-width:600px;
+    font-size:18px;
+    margin-bottom:30px;
+}
+
+.dashboard-btn{
+    padding:15px 30px;
+    font-size:18px;
+    border:none;
+    border-radius:8px;
+    background:#2563eb;
+    color:white;
+    cursor:pointer;
+}
+
+.dashboard-btn:hover{
+    background:#1d4ed8;
+}
+.dashboard-cards{
+    display:flex;
+    gap:30px;
+    margin-top:40px;
+}
+
+.dash-card{
+    width:250px;
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 4px 10px rgba(0,0,0,.2);
+}
+
+.dash-card:hover{
+    transform:translateY(-8px);
+    transition:.3s;
+}
+/* Dashboard */
+
+.dashboard{
+
+    min-height:100vh;
+
+    background:#eef3ff;
+
+    padding:50px;
+
+}
+
+.hero{
+
+    background:white;
+
+    padding:50px;
+
+    border-radius:20px;
+
+    text-align:center;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+
+}
+
+.hero h1{
+
+    color:#2563eb;
+
+    font-size:45px;
+
+}
+
+.hero p{
+
+    margin-top:20px;
+
+    font-size:20px;
+
+    color:#666;
+
+}
+
+.hero-btn{
+
+    margin-top:35px;
+
+    padding:15px 35px;
+
+    border:none;
+
+    border-radius:10px;
+
+    background:#2563eb;
+
+    color:white;
+
+    font-size:18px;
+
+    display:inline-flex;
+
+    gap:10px;
+
+    align-items:center;
+
+    cursor:pointer;
+
+}
+
+.hero-btn:hover{
+
+    background:#1747b3;
+
+}
+
+.stats{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:30px;
+
+    margin-top:50px;
+
+    flex-wrap:wrap;
+
+}
+
+.stat-card{
+
+    width:250px;
+
+    background:white;
+
+    padding:35px;
+
+    text-align:center;
+
+    border-radius:15px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+
+    transition:.3s;
+
+}
+
+.stat-card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.icon{
+
+    font-size:50px;
+
+    color:#2563eb;
+
+}
+
+.stat-card h2{
+
+    margin:20px 0;
+
+    font-size:40px;
+
+}
+
+.stat-card p{
+
+    color:#555;
+
+}
+

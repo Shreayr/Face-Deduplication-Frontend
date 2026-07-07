@@ -1,0 +1,215 @@
+/* Login Page */
+.login-container{
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    position:relative;
+
+    overflow:hidden;
+
+    background-size:cover;
+
+    background-position:center;
+
+    background-repeat:no-repeat;
+
+}
+.login-container::before{
+
+    content:"";
+
+    position:absolute;
+
+    inset:0;
+
+    background:rgba(0,0,0,.18);
+
+}
+
+.login-container::after{
+
+    content:"";
+
+    position:absolute;
+
+    width:420px;
+    height:420px;
+
+    background:rgba(255,255,255,.22);
+
+    border-radius:50%;
+
+    bottom:-150px;
+    right:-150px;
+
+    filter:blur(30px);
+
+}
+
+.login-card{
+
+    position:relative;
+
+    z-index:5;
+
+}
+.login-card h1{
+
+    text-align:center;
+
+    color:white;
+
+    font-size:42px;
+
+    margin-bottom:10px;
+
+}
+
+.login-card h2{
+
+    text-align:center;
+
+    color:#17314b;
+
+    font-weight:500;
+
+    margin-bottom:30px;
+
+}
+.login-card form{
+    display:flex;
+    flex-direction:column;
+}
+
+.login-card input{
+
+    width:100%;
+
+    padding:14px 50px 14px 18px;
+
+    border:none;
+
+    border-radius:40px;
+
+    background:rgba(255,255,255,.95);
+
+    font-size:15px;
+
+    outline:none;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+
+}
+.register-btn,
+.login-card button:not(.eye-btn){
+
+    width:100%;
+
+    padding:14px;
+
+    border:none;
+
+    border-radius:40px;
+
+    background:#1d4ed8;
+
+    color:white;
+
+    font-size:16px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.register-btn:hover,
+.login-card button:not(.eye-btn):hover{
+
+    background:#1e40af;
+
+    transform:translateY(-2px);
+
+}
+.login-card p{
+    margin-top:20px;
+}
+.password-wrapper{
+
+    position:relative;
+
+    width:100%;
+
+}
+
+.password-wrapper input{
+
+    width:100%;
+
+    padding-right:45px;
+
+    box-sizing:border-box;
+
+}
+
+.eye-btn{
+
+    position:absolute;
+
+    right:12px;
+
+    top:50%;
+
+    transform:translateY(-50%);
+
+   
+    background:transparent !important;
+    color:#777 !important;
+    border:none !important;
+    box-shadow:none !important;
+
+    padding:0;
+
+    width:auto;
+
+    height:auto;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    cursor:pointer;
+
+    color:#777;
+
+    font-size:20px;
+
+}
+
+.eye-btn:hover{
+
+    color:#2563eb;
+
+}
+
+.eye-btn:focus{
+
+    outline:none;
+
+    box-shadow:none;
+
+}
+
+.eye-btn:active{
+
+    background:transparent;
+
+}
